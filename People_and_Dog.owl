@@ -21,9 +21,41 @@
     
 
 
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#age -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_low_self_esteem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_low_self_esteem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_angry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_angry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_attached -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_attached"/>
+    
+
+
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_certain -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_certain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_charismatic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_charismatic"/>
     
 
 
@@ -33,15 +65,85 @@
     
 
 
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_flexible -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_flexible">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_focused -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_focused">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_frantic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_frantic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_hostile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_hostile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_incriminator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_incriminator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_manipulator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_manipulator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_motivator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_motivator"/>
+    
+
+
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_pratical -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_pratical"/>
     
 
 
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_prepotent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_prepotent"/>
+    
+
+
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_responsible -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_responsible"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_stubborn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_stubborn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_willing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_willing"/>
     
 
 
