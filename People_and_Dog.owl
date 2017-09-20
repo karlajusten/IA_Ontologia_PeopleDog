@@ -27,123 +27,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_low_self_esteem -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#would_be_pet_of -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_low_self_esteem">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#would_be_pet_of">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#would_have_pet"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_angry -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#would_have_pet -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_angry"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_attached -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_attached"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_certain -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_certain"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_charismatic -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_charismatic"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_envelop -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_envelop"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_flexible -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_flexible">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_focused -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_focused">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_frantic -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_frantic">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_hostile -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_hostile"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_incriminator -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_incriminator">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_manipulator -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_manipulator"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_motivator -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_motivator"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_pratical -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_pratical"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_prepotent -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_prepotent"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_responsible -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_responsible"/>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_stubborn -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_stubborn">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_willing -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_willing"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#would_have_pet"/>
     
 
 
@@ -158,9 +52,114 @@
     
 
 
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#acrobatdog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#acrobatdog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#agitateddog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#agitateddog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angrydog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angrydog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#attached -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#attached">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#beagle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#beagle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#disobedientdog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hard_to_tamedog"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#certain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#certain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismatic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismatic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#disobedientdog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#disobedientdog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#doberman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#doberman">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angrydog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostiledog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#dog"/>
+    </owl:Class>
     
 
 
@@ -172,26 +171,140 @@
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_type_one -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#envelope -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_type_one">
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#envelope">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_type_three -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#flexible -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_type_three">
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#flexible">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_type_two -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#focused -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_type_two">
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#focused">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#frantic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#frantic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#german_shepherd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#german_shepherd">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#guidedog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminatordog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#guidedog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#guidedog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hard_to_tamedog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hard_to_tamedog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostiledog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostiledog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminatordog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminatordog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#low_self_esteem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#low_self_esteem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#motivator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#motivator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#needydog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#needydog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
     </owl:Class>
     
 
@@ -210,11 +323,171 @@
     
 
 
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#pinscher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#pinscher">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#acrobatdog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angrydog"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#practical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#practical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#prepotent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#prepotent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#responsible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#responsible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#stubborn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#stubborn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#toughdog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#toughdog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#type_one -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#type_one">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angry"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#certain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostile"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#practical"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#responsible"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#stubborn"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#type_three -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#type_three">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#flexible"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#focused"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#frantic"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#low_self_esteem"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulator"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#motivator"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#type_two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#type_two">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#attached"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismatic"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#envelope"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminator"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#prepotent"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#willing"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#watchdog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#watchdog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#willing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#willing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#young -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#young">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#beagle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#doberman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#german_shepherd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#pinscher"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
