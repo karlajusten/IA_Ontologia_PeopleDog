@@ -44,6 +44,89 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from">
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Canada</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>England</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>France</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Germany</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>Ireland</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>Italy</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first>Mexico</rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first>Scotland</rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first>Spain</rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                                <rdf:first>Switzerland</rdf:first>
+                                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -106,6 +189,10 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#disobedientdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hard_to_tamedog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>England</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -123,6 +210,18 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#acrobatdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#agitateddog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Ireland</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Scotland</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -150,8 +249,6 @@
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#french_bulldog"/>
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#st_bernard"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#animal"/>
     </owl:Class>
     
@@ -167,6 +264,10 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulatordog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#needydog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#toughdog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Mexico</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -192,6 +293,10 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angrydog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostiledog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Germany</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -243,6 +348,26 @@
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#french_bulldog -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#french_bulldog">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#agitateddog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>England</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>France</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#dog"/>
     </owl:Class>
     
@@ -258,6 +383,18 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminatordog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Germany</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Italy</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -275,6 +412,10 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#guidedog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Scotland</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -351,6 +492,10 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulatordog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#needydog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Canada</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -375,6 +520,10 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulatordog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#needydog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Spain</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -445,6 +594,10 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#acrobatdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angrydog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Germany</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -462,6 +615,10 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulatordog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#needydog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>France</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -511,6 +668,10 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#guidedog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminatordog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#resposibledog"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                        <owl:hasValue>Germany</owl:hasValue>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -522,6 +683,26 @@
     <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#st_bernard -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#st_bernard">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#intelligentdog"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Italy</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Switzerland</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#dog"/>
     </owl:Class>
     
@@ -619,6 +800,18 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismaticdog"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#disobedientdog"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>England</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#is_from"/>
+                                <owl:hasValue>Scotland</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -640,6 +833,36 @@
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#young">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Anna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Anna">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angry"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#certain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#hostile"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#practical"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#responsible"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#stubborn"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
     
 
 
