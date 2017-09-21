@@ -866,6 +866,53 @@
     
 
 
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Bruno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Bruno">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#attached"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#charismatic"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#envelope"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#incriminator"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#prepotent"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#willing"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Carlos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Carlos">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#flexible"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#focused"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#frantic"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#low_self_esteem"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#manipulator"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#motivator"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Rex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Rex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#beagle"/>
+        <would_be_pet_of rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Anna"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
