@@ -27,18 +27,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_be_hitted_by -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_been_hit_by -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_be_hitted_by">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_been_hit_by">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hitted"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hit"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hitted -->
+    <!-- http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hit -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hitted"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hit"/>
     
 
 
@@ -208,8 +208,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#angry">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hitted"/>
-                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#has_hit"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#person"/>
@@ -1026,7 +1026,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdf:type>
-        <has_hitted rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Bruna"/>
+        <has_hit rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Bruna"/>
         <would_have_pet rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Rex"/>
     </owl:NamedIndividual>
     
@@ -1132,7 +1132,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdf:type>
-        <has_be_hitted_by rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Anna"/>
+        <has_been_hit_by rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Anna"/>
         <would_have_pet rdf:resource="http://www.semanticweb.org/karla/ontologies/2017/8/untitled-ontology-10#Missie"/>
     </owl:NamedIndividual>
     
